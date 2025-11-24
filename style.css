@@ -1,0 +1,104 @@
+/* Estilos Globales: Aplicables a todo el proyecto HTML */
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8; /* Fondo claro */
+    color: black;
+    text-align: center; 
+}
+
+/* Estilos para el encabezado (HEADER) - Color Azul */
+header {
+    background-color: #004D99; /* Azul de Spider-Man */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin: 2px 0;
+}
+
+header nav a {
+    color: #FFC300; /* Dorado para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/* Estilos para el contenido principal (MAIN) - Color Rojo */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #DF1F2D; /* ROJO DE SPIDER-MAN */
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    min-height: 500px; 
+    color: white; /* **IMPORTANTE: TODO EL TEXTO BASE ES BLANCO** */
+    text-align: left;
+    border-radius: 10px;
+}
+
+/* --- REGLAS AGREGADAS / CORREGIDAS PARA UNIFORMAR EL FORMATO --- */
+
+/* Estilos de títulos y texto dentro del main */
+main h1 {
+    color: #FFC300; /* Título principal en dorado */
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+main h2 {
+    color: white; /* Títulos de sección en blanco */
+    border-bottom: 1px dashed #FFC300;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+main p, main ul, main ol, main li {
+    color: white; /* Texto del cuerpo en blanco */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Estilo para las imágenes dentro del contenido */
+main img {
+    border: 3px solid #FFC300;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el pie de página (FOOTER) */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #FFC300;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+footer a:hover {
+    color: white;
+}
